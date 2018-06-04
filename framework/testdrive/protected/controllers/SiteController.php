@@ -106,4 +106,11 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
+	public function actionPost() {
+		// echo "Start <br/>"; echo '<pre>'; print_r('this');echo '</pre>';exit("End Data");
+		$model = new PostForm;
+		$listPost = $model->getListPost();
+		$this->render('post/index', array('l_Post'=>$listPost));
+	}
 }

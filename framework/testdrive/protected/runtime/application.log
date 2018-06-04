@@ -1,0 +1,344 @@
+2018/06/01 08:31:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "post/create". in O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/create')
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=post/create
+---
+2018/06/01 08:40:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gii.". in O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('gii.')
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii.
+---
+2018/06/04 01:12:41 [error] [exception.CHttpException.404] CHttpException: The requested view "test" was not found. in O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('test')
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): CController->run('page')
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=site/page&view=test
+---
+2018/06/04 02:03:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ff/detail". in O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('ff/detail')
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=ff/detail
+---
+2018/06/04 02:03:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ff/detail". in O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('ff/detail')
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=ff/detail
+---
+2018/06/04 02:04:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ff/detail". in O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('ff/detail')
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=ff/detail
+---
+2018/06/04 02:04:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "stite/detail". in O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('stite/detail')
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=stite/detail
+---
+2018/06/04 02:55:44 [error] [php] count(): Parameter must be an array or an object that implements Countable (O:\xamp\localhost\2018\php\yii\yii1\framework\gii\generators\model\ModelCode.php:371)
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(162): ModelCode->prepare()
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(63): ModelGenerator->prepare()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): ModelGenerator->actionIndex()
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): ModelGenerator->runAction()
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): ModelGenerator->run()
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=gii/model/index
+2018/06/04 03:02:23 [error] [php] count(): Parameter must be an array or an object that implements Countable (O:\xamp\localhost\2018\php\yii\yii1\framework\gii\generators\model\ModelCode.php:371)
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(162): ModelCode->prepare()
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(63): ModelGenerator->prepare()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): ModelGenerator->actionIndex()
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): ModelGenerator->runAction()
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): ModelGenerator->run()
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=gii/model/index
+2018/06/04 03:08:18 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT DISTINCT tbl_name FROM sqlite_master WHERE tbl_name<>'sqlite_sequence'
+2018/06/04 03:08:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 26 file is not a database. The SQL statement executed was: SELECT DISTINCT tbl_name FROM sqlite_master WHERE tbl_name<>'sqlite_sequence'.
+2018/06/04 03:08:18 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 26 file is not a database. The SQL statement executed was: SELECT DISTINCT tbl_name FROM sqlite_master WHERE tbl_name<>'sqlite_sequence' in O:\xamp\localhost\2018\php\yii\yii1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\db\CDbCommand.php(455): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\db\schema\sqlite\CSqliteSchema.php(94): CDbCommand->queryColumn()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\db\schema\CDbSchema.php(139): CSqliteSchema->findTableNames('')
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\db\schema\CDbSchema.php(122): CDbSchema->getTableNames('')
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\generators\model\views\index.php(79): CDbSchema->getTables()
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CBaseController.php(126): require('O:\\xamp\\localho...')
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('O:\\xamp\\localho...', Array, true)
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(877): CBaseController->renderFile('O:\\xamp\\localho...', Array, true)
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(789): CController->renderPartial('index', Array, true)
+#9 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(71): CController->render('index', Array)
+#10 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#11 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): CController->run('index')
+#15 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#16 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/module/index
+---
+2018/06/04 03:08:21 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT DISTINCT tbl_name FROM sqlite_master WHERE tbl_name<>'sqlite_sequence'
+2018/06/04 03:08:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 26 file is not a database. The SQL statement executed was: SELECT DISTINCT tbl_name FROM sqlite_master WHERE tbl_name<>'sqlite_sequence'.
+2018/06/04 03:08:21 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 26 file is not a database. The SQL statement executed was: SELECT DISTINCT tbl_name FROM sqlite_master WHERE tbl_name<>'sqlite_sequence' in O:\xamp\localhost\2018\php\yii\yii1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\db\CDbCommand.php(455): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\db\schema\sqlite\CSqliteSchema.php(94): CDbCommand->queryColumn()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\db\schema\CDbSchema.php(139): CSqliteSchema->findTableNames('')
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\db\schema\CDbSchema.php(122): CDbSchema->getTableNames('')
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\generators\model\views\index.php(79): CDbSchema->getTables()
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CBaseController.php(126): require('O:\\xamp\\localho...')
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('O:\\xamp\\localho...', Array, true)
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(877): CBaseController->renderFile('O:\\xamp\\localho...', Array, true)
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(789): CController->renderPartial('index', Array, true)
+#9 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(71): CController->render('index', Array)
+#10 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#11 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): CController->run('index')
+#15 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#16 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:8080/index.php?r=gii/module/index
+---
+2018/06/04 03:08:45 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT DISTINCT tbl_name FROM sqlite_master WHERE tbl_name<>'sqlite_sequence'
+2018/06/04 03:08:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 26 file is not a database. The SQL statement executed was: SELECT DISTINCT tbl_name FROM sqlite_master WHERE tbl_name<>'sqlite_sequence'.
+2018/06/04 03:08:45 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 26 file is not a database. The SQL statement executed was: SELECT DISTINCT tbl_name FROM sqlite_master WHERE tbl_name<>'sqlite_sequence' in O:\xamp\localhost\2018\php\yii\yii1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\db\CDbCommand.php(455): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\db\schema\sqlite\CSqliteSchema.php(94): CDbCommand->queryColumn()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\db\schema\CDbSchema.php(139): CSqliteSchema->findTableNames('')
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\db\schema\CDbSchema.php(122): CDbSchema->getTableNames('')
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\generators\model\views\index.php(79): CDbSchema->getTables()
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CBaseController.php(126): require('O:\\xamp\\localho...')
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('O:\\xamp\\localho...', Array, true)
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(877): CBaseController->renderFile('O:\\xamp\\localho...', Array, true)
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(789): CController->renderPartial('index', Array, true)
+#9 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(71): CController->render('index', Array)
+#10 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#11 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): CController->run('index')
+#15 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#16 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+---
+2018/06/04 03:09:14 [error] [php] count(): Parameter must be an array or an object that implements Countable (O:\xamp\localhost\2018\php\yii\yii1\framework\gii\generators\model\ModelCode.php:371)
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(162): ModelCode->prepare()
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(63): ModelGenerator->prepare()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): ModelGenerator->actionIndex()
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): ModelGenerator->runAction()
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): ModelGenerator->run()
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=gii/model/index
+2018/06/04 03:09:37 [error] [php] count(): Parameter must be an array or an object that implements Countable (O:\xamp\localhost\2018\php\yii\yii1\framework\gii\generators\model\ModelCode.php:371)
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(162): ModelCode->prepare()
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(63): ModelGenerator->prepare()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): ModelGenerator->actionIndex()
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): ModelGenerator->runAction()
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): ModelGenerator->run()
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=gii/model/index
+2018/06/04 03:14:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.tbl_test' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_test`.
+2018/06/04 03:15:12 [error] [php] count(): Parameter must be an array or an object that implements Countable (O:\xamp\localhost\2018\php\yii\yii1\framework\gii\generators\model\ModelCode.php:371)
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(162): ModelCode->prepare()
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(63): ModelGenerator->prepare()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): ModelGenerator->actionIndex()
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): ModelGenerator->runAction()
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): ModelGenerator->run()
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=gii/model/index
+2018/06/04 03:16:26 [error] [php] count(): Parameter must be an array or an object that implements Countable (O:\xamp\localhost\2018\php\yii\yii1\framework\gii\generators\model\ModelCode.php:371)
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(162): ModelCode->prepare()
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(63): ModelGenerator->prepare()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): ModelGenerator->actionIndex()
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): ModelGenerator->runAction()
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): ModelGenerator->run()
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=gii/model/index
+2018/06/04 03:22:51 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in O:\xamp\localhost\2018\php\yii\yii1\framework\db\CDbConnection.php:399
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CModule.php(394): CDbConnection->init()
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CFormModel.php(39): ModelCode->init()
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): CController->run('index')
+#13 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model/index
+---
+2018/06/04 04:22:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "layouts/main". in O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/main')
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=layouts/main
+---
+2018/06/04 06:58:07 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "post". in O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php:489
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(271): CController->missingAction('post')
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): CController->run('post')
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/post')
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/post
+HTTP_REFERER=http://localhost:8080/index.php
+---
+2018/06/04 07:10:05 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "post". in O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php:489
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(271): CController->missingAction('post')
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): CController->run('post')
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/post')
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/post&view=index
+HTTP_REFERER=http://localhost:8080/index.php
+---
+2018/06/04 07:32:51 [error] [exception.Error] Error: Class 'PostForm' not found in O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\protected\controllers\SiteController.php:112
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionPost()
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): CController->run('post')
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/post')
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=site/post&view=index
+HTTP_REFERER=http://localhost:8080/index.php?r=site/post&view=index
+---
+2018/06/04 08:09:22 [error] [php] include(Html.php): failed to open stream: No such file or directory (O:\xamp\localhost\2018\php\yii\yii1\framework\YiiBase.php:432)
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\protected\views\site\post\index.php(30): spl_autoload_call()
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CBaseController.php(126): require()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(875): SiteController->renderFile()
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(788): SiteController->renderPartial()
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\protected\controllers\SiteController.php(114): SiteController->render()
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionPost()
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): SiteController->runAction()
+#9 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#11 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/post&view=index
+2018/06/04 08:09:44 [error] [php] include(Html.php): failed to open stream: No such file or directory (O:\xamp\localhost\2018\php\yii\yii1\framework\YiiBase.php:432)
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\protected\views\site\post\index.php(30): spl_autoload_call()
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CBaseController.php(126): require()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(875): SiteController->renderFile()
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(788): SiteController->renderPartial()
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\protected\controllers\SiteController.php(114): SiteController->render()
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionPost()
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): SiteController->runAction()
+#9 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#11 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/post&view=index
+2018/06/04 08:15:24 [error] [php] include(Html.php): failed to open stream: No such file or directory (O:\xamp\localhost\2018\php\yii\yii1\framework\YiiBase.php:432)
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\protected\views\site\post\index.php(30): spl_autoload_call()
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CBaseController.php(126): require()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(875): SiteController->renderFile()
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(788): SiteController->renderPartial()
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\protected\controllers\SiteController.php(114): SiteController->render()
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionPost()
+#7 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): SiteController->runAction()
+#9 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#11 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/post&view=index
+2018/06/04 08:40:35 [error] [php] Use of undefined constant CHtml - assumed 'CHtml' (this will throw an Error in a future version of PHP) (O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\protected\models\PostForm.php:41)
+Stack trace:
+#0 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(287): SiteController->runAction()
+#2 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#4 O:\xamp\localhost\2018\php\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 O:\xamp\localhost\2018\php\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 O:\xamp\localhost\2018\php\yii\yii1\framework\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/post&view=index
